@@ -1,0 +1,53 @@
+/* Variaveis */
+:root{
+    --backgoundcolor: #f5f5f5;
+    --carcolor: #fff;
+    --fontcolor: #000;
+    --shadowcolor :rba (0,0,0,0.2 );
+}
+
+/* Reset CSS */
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Estilos Basicos */
+* {
+    font-family: 'Roboto', sans-serif;
+    color: var(--fontcolor);
+
+}
+body{
+    background-color: var(--backgoundcolor);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;  
+    background-image: 
+    url('/Foto1.jpg');
+    
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-position: center, center;
+        background-repeat: repeat, repeat;
+        background-size: 400px 200px, 500px 400px;
+        padding:25px;
+        height:400px
+    }
+
+/* Estilos dos botões */
+button {
+    background: #069cc2; 
+    border-radius: 6px; 
+    padding : 15px; 
+    cursor: pointer; 
+    color: #fff;
+    border: none; 
+    font-size: 16px;
+    margin: 10px 0;
+}
